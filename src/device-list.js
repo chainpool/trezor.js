@@ -18,7 +18,7 @@ import type {
     TrezorDeviceInfoWithSession as DeviceDescriptor,
 } from 'trezor-link';
 
-const CONFIG_URL = 'https://wallet.trezor.io/data/config_signed.bin';
+const CONFIG_URL = 'https://chainx-dapp-wallet.oss-cn-hangzhou.aliyuncs.com/config_signed.bin';
 
 export type DeviceListOptions = {
     debug?: boolean;
